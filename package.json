@@ -1,0 +1,12 @@
+{
+    "name": "TimeTrack.js"
+  , "version": "0.0.1"
+  , "description": "Small TimeTracker"
+  , "author": "Natan Santolo <natan.santolo@gmail.com>"
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/natos/TimeTrack.js"
+    }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.7" }
+}
