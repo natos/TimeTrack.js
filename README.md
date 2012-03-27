@@ -8,6 +8,14 @@ Install
 
 	npm install timetrack -g
 
+Use
+===
+
+Require the module
+------------------
+
+	var Timer = require('timetrack');
+
 Start tracking
 --------------
 	var t = new Timer('Label');
@@ -19,3 +27,7 @@ Record a timestamp
 Turn off logs
 -------------
 	t.off();
+
+Enable logs
+-----------
+	t.on();
