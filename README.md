@@ -1,12 +1,12 @@
 TimeTrack
 =========
 
-Simple time tracker to test the speed of APIs responses.
+Simple time tracker to test the speed on JavaScript.
 
 Install
 -------
 
-	npm install timetrack -g
+	npm install -g timetrack
 
 Use
 ===
@@ -14,20 +14,20 @@ Use
 Require the module
 ------------------
 
-	var Timer = require('timetrack');
+	var TimeTrack = require('timetrack');
 
 Start tracking
 --------------
-	var t = new Timer('Label');
+	var timer = new TimeTrack('Name');
 
 Record a timestamp
 ------------------
-	t.track('Label');
+	timer.track('Label');
 
 Turn off logs
 -------------
-	t.off();
+	timer.off();
 
 Enable logs
 -----------
-	t.on();
+	timer.on();
