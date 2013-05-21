@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose publish [ '.' ]
+5 verbose read json /Users/natos/Development/workspace/TimeTrack.js/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/natos/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz
+14 verbose folder .
+15 info prepublish timetrack@0.1.2
+16 silly lockFile cf295182-34532-0-6859648923855275-tmp-tgz /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz
+17 verbose lock /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz /Users/natos/.npm/cf295182-34532-0-6859648923855275-tmp-tgz.lock
+18 silly lockFile cf295182-34532-0-6859648923855275-tmp-tgz /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz
+19 verbose tar unpack /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/tmp.tgz
+20 silly lockFile 00fbc5ec-34532-0-6859648923855275-package /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package
+21 verbose lock /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package /Users/natos/.npm/00fbc5ec-34532-0-6859648923855275-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry index.js
+27 silly gunzTarPerm extractEntry lib/timer.js
+28 verbose read json /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package/package.json
+29 silly lockFile 00fbc5ec-34532-0-6859648923855275-package /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package
+30 verbose from cache /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package/package.json
+31 verbose tar pack [ '/Users/natos/.npm/timetrack/0.1.2/package.tgz',
+31 verbose tar pack   '/var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package' ]
+32 verbose tarball /Users/natos/.npm/timetrack/0.1.2/package.tgz
+33 verbose folder /var/folders/8h/118hpxv95h728yqxspm8t9200000gn/T/npm-4254/1369158434532-0.6859648923855275/package
+34 silly lockFile dda25a8a--npm-timetrack-0-1-2-package-tgz /Users/natos/.npm/timetrack/0.1.2/package.tgz
+35 verbose lock /Users/natos/.npm/timetrack/0.1.2/package.tgz /Users/natos/.npm/dda25a8a--npm-timetrack-0-1-2-package-tgz.lock
+36 silly lockFile dda25a8a--npm-timetrack-0-1-2-package-tgz /Users/natos/.npm/timetrack/0.1.2/package.tgz
+37 silly lockFile bb73cd3f-atos-npm-timetrack-0-1-2-package /Users/natos/.npm/timetrack/0.1.2/package
+38 verbose lock /Users/natos/.npm/timetrack/0.1.2/package /Users/natos/.npm/bb73cd3f-atos-npm-timetrack-0-1-2-package.lock
+39 silly lockFile bb73cd3f-atos-npm-timetrack-0-1-2-package /Users/natos/.npm/timetrack/0.1.2/package
+40 verbose tar unpack /Users/natos/.npm/timetrack/0.1.2/package.tgz
+41 silly lockFile bb73cd3f-atos-npm-timetrack-0-1-2-package /Users/natos/.npm/timetrack/0.1.2/package
+42 verbose lock /Users/natos/.npm/timetrack/0.1.2/package /Users/natos/.npm/bb73cd3f-atos-npm-timetrack-0-1-2-package.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry .npmignore
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm extractEntry index.js
+48 silly gunzTarPerm extractEntry lib/timer.js
+49 verbose read json /Users/natos/.npm/timetrack/0.1.2/package/package.json
+50 silly lockFile bb73cd3f-atos-npm-timetrack-0-1-2-package /Users/natos/.npm/timetrack/0.1.2/package
+51 silly shasum updated bytes 1174
+52 info shasum 9ddbf436b9020a36a230bcb1c9028d03d9861e18
+52 info shasum /Users/natos/.npm/timetrack/0.1.2/package.tgz
+53 verbose from cache /Users/natos/.npm/timetrack/0.1.2/package/package.json
+54 verbose chmod /Users/natos/.npm/timetrack/0.1.2/package.tgz 644
+55 verbose chown /Users/natos/.npm/timetrack/0.1.2/package.tgz [ 501, 20 ]
+56 silly lockFile 3a52ce78- .
+57 silly publish { name: 'timetrack',
+57 silly publish   version: '0.1.2',
+57 silly publish   description: 'JavaScript TimeTracker',
+57 silly publish   author: { name: 'Natan Santolo', email: 'natan.santolo@gmail.com' },
+57 silly publish   repository: { type: 'git', url: 'https://github.com/natos/TimeTrack.js' },
+57 silly publish   main: 'index',
+57 silly publish   engines: { node: '>= 0.4.7' },
+57 silly publish   readme: 'TimeTrack\n=========\n\nSimple time tracker to test the speed on JavaScript.\n\nInstall\n-------\n\n\tnpm install -g timetrack\n\nUse\n===\n\nRequire the module\n------------------\n\n\tvar TimeTrack = require(\'timetrack\');\n\nStart tracking\n--------------\n\tvar timer = new TimeTrack(\'Name\');\n\nRecord a timestamp\n------------------\n\ttimer.track(\'Label\');\n\nTurn off logs\n-------------\n\ttimer.off();\n\nEnable logs\n-----------\n\ttimer.on();',
+57 silly publish   readmeFilename: 'README.md',
+57 silly publish   _id: 'timetrack@0.1.2',
+57 silly publish   dist: { shasum: '9ddbf436b9020a36a230bcb1c9028d03d9861e18' },
+57 silly publish   _from: '.' }
+58 verbose url raw timetrack
+59 verbose url resolving [ 'https://registry.npmjs.org/', './timetrack' ]
+60 verbose url resolved https://registry.npmjs.org/timetrack
+61 info trying registry request attempt 1 at 13:47:14
+62 http PUT https://registry.npmjs.org/timetrack
+63 http 409 https://registry.npmjs.org/timetrack
+64 verbose url raw timetrack
+65 verbose url resolving [ 'https://registry.npmjs.org/', './timetrack' ]
+66 verbose url resolved https://registry.npmjs.org/timetrack
+67 info trying registry request attempt 1 at 13:47:15
+68 http GET https://registry.npmjs.org/timetrack
+69 http 200 https://registry.npmjs.org/timetrack
+70 error publish fail Cannot publish over existing version.
+70 error publish fail Bump the 'version' field, set the --force flag, or
+70 error publish fail     npm unpublish 'timetrack@0.1.2'
+70 error publish fail and try again
+71 error System Darwin 12.3.0
+72 error command "node" "/usr/local/bin/npm" "publish"
+73 error cwd /Users/natos/Development/workspace/TimeTrack.js
+74 error node -v v0.8.18
+75 error npm -v 1.2.2
+76 error code EPUBLISHCONFLICT
+77 verbose exit [ 1, true ]
