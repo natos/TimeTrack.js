@@ -1,6 +1,6 @@
 {
     "name": "timetrack"
-  , "version": "0.1.1"
+  , "version": "0.1.2"
   , "description": "JavaScript TimeTracker"
   , "author": "Natan Santolo <natan.santolo@gmail.com>"
   , "repository":{
